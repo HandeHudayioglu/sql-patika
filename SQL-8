@@ -1,0 +1,73 @@
+CREATE TABLE myemployee (
+
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    birthday DATE ,
+    email VARCHAR(100)
+);
+
+
+insert into myemployee (name, email, birthday) values ('Moll Woofendell', 'mwoofendell0@ibm.com', '2016/03/30');
+insert into myemployee (name, email, birthday) values ('Enos Cahan', 'ecahan1@arstechnica.com', '2005/03/15');
+insert into myemployee (name, email, birthday) values ('Kate Mepham', 'kmepham2@privacy.gov.au', '2017/06/18');
+insert into myemployee (name, email, birthday) values ('Crichton Tesh', 'ctesh3@accuweather.com', null);
+insert into myemployee (name, email, birthday) values ('Kahaleel Rhelton', 'krhelton4@arstechnica.com', '2007/01/01');
+insert into myemployee (name, email, birthday) values ('Wyatt Lissimore', null, '2003/08/16');
+insert into myemployee (name, email, birthday) values ('Elliot Reely', 'ereely6@booking.com', null);
+insert into myemployee (name, email, birthday) values ('Deidre Liddington', 'dliddington7@alexa.com', '2015/08/30');
+insert into myemployee (name, email, birthday) values ('Cecilla Darlaston', 'cdarlaston8@netscape.com', null);
+insert into myemployee (name, email, birthday) values ('Minda St. Pierre', 'mst9@ehow.com', '2006/07/01');
+insert into myemployee (name, email, birthday) values ('Nerty Catcheside', 'ncatchesidea@yandex.ru', '2004/02/02');
+insert into myemployee (name, email, birthday) values ('Irving Simonelli', 'isimonellib@dedecms.com', '2018/03/21');
+insert into myemployee (name, email, birthday) values ('Gabriela Hazeldene', 'ghazeldenec@huffingtonpost.com', '2015/03/28');
+insert into myemployee (name, email, birthday) values ('Jone Fransman', 'jfransmand@yelp.com', '2017/11/19');
+insert into myemployee (name, email, birthday) values ('Mitchell Weiser', 'mweisere@etsy.com', '2006/07/21');
+insert into myemployee (name, email, birthday) values ('Libbi Flode', 'lflodef@pbs.org', '2000/08/31');
+insert into myemployee (name, email, birthday) values ('Tim Musicka', 'tmusickag@squidoo.com', '2019/08/16');
+insert into myemployee (name, email, birthday) values ('Dillon Vickerman', 'dvickermanh@ocn.ne.jp', null);
+insert into myemployee (name, email, birthday) values ('Shermie Leipelt', 'sleipelti@typepad.com', '2006/01/23');
+insert into myemployee (name, email, birthday) values ('Horatius Stanfield', 'hstanfieldj@exblog.jp', null);
+insert into myemployee (name, email, birthday) values ('Merle Hellen', 'mhellenk@sogou.com', null);
+insert into myemployee (name, email, birthday) values ('Tiffy Southers', 'tsouthersl@usda.gov', '2007/08/20');
+insert into myemployee (name, email, birthday) values ('Neils Francescozzi', 'nfrancescozzim@jalbum.net', null);
+insert into myemployee (name, email, birthday) values ('Sheryl Groundwater', 'sgroundwatern@webs.com', '2011/08/13');
+insert into myemployee (name, email, birthday) values ('Glenn Boydle', 'gboydleo@livejournal.com', '2021/10/07');
+insert into myemployee (name, email, birthday) values ('Odie Hawgood', 'ohawgoodp@macromedia.com', '2021/07/12');
+insert into myemployee (name, email, birthday) values ('Erasmus Bucke', 'ebuckeq@upenn.edu', '2016/12/17');
+insert into myemployee (name, email, birthday) values ('Cornelius Edgeller', 'cedgellerr@1und1.de', null);
+insert into myemployee (name, email, birthday) values ('Trudy Renak', null, null);
+insert into myemployee (name, email, birthday) values ('Ashia MacCurley', null, '2011/08/15');
+insert into myemployee (name, email, birthday) values ('Feliks Basile', 'fbasileu@jigsy.com', '2018/01/15');
+insert into myemployee (name, email, birthday) values ('Elna Fentem', 'efentemv@woothemes.com', null);
+insert into myemployee (name, email, birthday) values ('Roxanne Linfield', 'rlinfieldw@cpanel.net', null);
+insert into myemployee (name, email, birthday) values ('Krisha Dumbelton', 'kdumbeltonx@stumbleupon.com', '2008/06/21');
+insert into myemployee (name, email, birthday) values ('Haleigh Geratt', 'hgeratty@g.co', '2014/03/22');
+insert into myemployee (name, email, birthday) values ('Verge Dillingstone', 'vdillingstonez@eepurl.com', null);
+insert into myemployee (name, email, birthday) values ('Tybie Hamer', 'thamer10@mtv.com', null);
+insert into myemployee (name, email, birthday) values ('Merralee Halahan', 'mhalahan11@google.de', '2018/08/23');
+insert into myemployee (name, email, birthday) values ('Tiphani Meugens', null, null);
+insert into myemployee (name, email, birthday) values ('Kaine Tewkesberry', 'ktewkesberry13@ucoz.ru', '2019/01/22');
+insert into myemployee (name, email, birthday) values ('Abbe Hards', 'ahards14@blinklist.com', '2010/08/02');
+insert into myemployee (name, email, birthday) values ('Leanor Torrie', 'ltorrie15@pbs.org', '2011/06/25');
+insert into myemployee (name, email, birthday) values ('Lee Caddell', 'lcaddell16@dion.ne.jp', null);
+insert into myemployee (name, email, birthday) values ('Nat Arpe', 'narpe17@seesaa.net', '2014/02/14');
+insert into myemployee (name, email, birthday) values ('Randell Delicate', null, null);
+insert into myemployee (name, email, birthday) values ('Dierdre Karp', 'dkarp19@spotify.com', '2009/04/26');
+insert into myemployee (name, email, birthday) values ('Hatti Whetnall', 'hwhetnall1a@wikispaces.com', '2022/05/30');
+insert into myemployee (name, email, birthday) values ('Vicki Watling', null, '2010/12/28');
+insert into myemployee (name, email, birthday) values ('Robyn Backshill', 'rbackshill1c@utexas.edu', null);
+insert into myemployee (name, email, birthday) values ('Nisse Lerway', 'nlerway1d@blinklist.com', '2008/08/16');
+insert into myemployee (name, email, birthday) values ('Cathleen Veryard', 'cveryard1e@dagondesign.com', '2009/09/18');
+
+UPDATE myemployee SET name ='Eda', birthday= '2000-09-24' WHERE name= 'Stavros Poyzer';
+UPDATE myemployee SET id = 54 WHERE id=10;
+UPDATE myemployee SET name = 'AAA' WHERE name LIKE  '%s';
+UPDATE myemployee SET birthday = '2010-05-12' WHERE email= 'dkarp19@spotify.com';
+UPDATE myemployee SET email = 'emp@loyee.com' WHERE id=12;
+
+
+DELETE FROM myemployee WHERE id=23;
+DELETE FROM myemployee WHERE name='Nisse Lerway';
+DELETE FROM myemployee WHERE name ILIKE '%A&';
+DELETE FROM myemployee WHERE email= 'rbackshill1c@utexas.edu';
+DELETE FROM myemployee WHERE birthday =  '2008/08/16';
